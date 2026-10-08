@@ -325,3 +325,95 @@ git status
 Confirms the current branch and whether there are any uncommitted changes.
 
 The repository was confirmed to be clean and synchronized with the remote `main` branch.
+
+## Daily Challenges
+
+### Day 1 — Terminal-Only Project Setup
+
+#### 37. Create the project directory structure
+
+```bash
+mkdir -p daily-challenges/daily-challenge-1/src/css daily-challenges/daily-challenge-1/src/js
+```
+
+Creates the required project folders using only the terminal.
+
+#### 38. Create the project files
+
+```bash
+touch daily-challenges/daily-challenge-1/src/index.html daily-challenges/daily-challenge-1/src/css/style.css daily-challenges/daily-challenge-1/src/js/app.js daily-challenges/daily-challenge-1/README.md
+```
+
+Creates the HTML, CSS, JavaScript, and README files.
+
+#### 39. Verify the project structure
+
+```bash
+ls -R daily-challenges/daily-challenge-1
+```
+
+Displays the complete project directory structure.
+
+#### 40. Create the HTML content
+
+```bash
+cat > daily-challenges/daily-challenge-1/src/index.html <<'EOF'
+```
+
+Writes the HTML5 page structure to `index.html` from the terminal.
+
+#### 41. Create the CSS content
+
+```bash
+cat > daily-challenges/daily-challenge-1/src/css/style.css <<'EOF'
+```
+
+Writes the stylesheet to `style.css` from the terminal.
+
+#### 42. Create the JavaScript content
+
+```bash
+cat > daily-challenges/daily-challenge-1/src/js/app.js <<'EOF'
+```
+
+Writes the JavaScript code to `app.js` from the terminal.
+
+#### 43. Create the Day 1 README
+
+```bash
+cat > daily-challenges/daily-challenge-1/README.md <<'EOF'
+```
+
+Writes the project README from the terminal.
+
+#### 44. Verify the HTML file
+
+```bash
+cat daily-challenges/daily-challenge-1/src/index.html
+```
+
+Displays the HTML file contents for verification.
+
+#### 45. Verify the CSS file
+
+```bash
+cat daily-challenges/daily-challenge-1/src/css/style.css
+```
+
+Displays the CSS file contents for verification.
+
+#### 46. Verify the JavaScript file
+
+```bash
+cat daily-challenges/daily-challenge-1/src/js/app.js
+```
+
+Displays the JavaScript file contents for verification.
+
+#### 47. Verify the README
+
+```bash
+cat daily-challenges/daily-challenge-1/README.md
+```
+
+Displays the README contents for verification.
