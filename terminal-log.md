@@ -417,3 +417,39 @@ cat daily-challenges/daily-challenge-1/README.md
 ```
 
 Displays the README contents for verification.
+
+
+### Day 2 — Find Command Mastery
+
+#### 48. Find all CSS files
+
+```bash
+find . -type f -name "*.css"
+```
+
+Finds all CSS files in the current project.
+
+#### 49. Find files modified in the last 7 days
+
+```bash
+find . -path './.git' -prune -o -type f -mtime -7 -print
+```
+
+Finds files modified within the last seven days while excluding the `.git` directory.
+
+#### 50. Search for the word `flex` in CSS files
+
+```bash
+grep -n "flex" $(find . -path './.git' -prune -o -type f -name "*.css" -print)
+```
+
+Searches CSS files for the word `flex` and displays matching line numbers.
+
+#### 51. Count occurrences of `div` in HTML files
+
+```bash
+grep -roh "div" $(find . -path './.git' -prune -o -type f -name "*.html" -print) | wc -l
+```
+
+Searches HTML files for occurrences of `div` and counts the results.
+
