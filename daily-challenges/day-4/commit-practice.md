@@ -15,7 +15,7 @@ This challenge is about practicing clear and meaningful Git commit messages.
 - `feat: add login form`
 
 ### Fixes
-- `fix: correct button link`
+- `fix: correct button links`
 
 ### Documentation
 - `docs: update README`
