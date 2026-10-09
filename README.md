@@ -78,7 +78,7 @@ Working through these tasks helped me understand Git as a workflow rather than s
 
 ## Collaboration
 
-The collaboration links will be added after completing the Pair Collaboration Lab:
+Collaboration links to be completed:
 
 * **Partner:** https://github.com/ShemaKevin970
 * **Pair Repository:** (https://github.com/ShemaKevin970/iyf-s12-week-00-ShemaKevin970)
