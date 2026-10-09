@@ -83,7 +83,7 @@ Collaboration links to be completed:
 * **Partner:** https://github.com/ShemaKevin970
 * **Pair Repository:** (https://github.com/ShemaKevin970/iyf-s12-week-00-ShemaKevin970)
 * **PR I Opened:**     (https://github.com/ShemaKevin970/iyf-s12-week-00-ShemaKevin970/pull/3)
-* **PR I Reviewed:**  Pending — my partner's pull request is not yet available.
+* **PR I Reviewed:**  https://github.com/ShemaKevin970/iyf-s12-week-00-ShemaKevin970/pull/2
 * **Merge-Conflict PR:** To be added
 
 ## License
