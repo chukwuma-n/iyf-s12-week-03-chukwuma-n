@@ -453,3 +453,63 @@ grep -roh "div" $(find . -path './.git' -prune -o -type f -name "*.html" -print)
 
 Searches HTML files for occurrences of `div` and counts the results.
 
+## Additional Git Practice — 17 October 2026
+
+### Check repository status
+`git status`
+
+Shows the current branch and whether files have uncommitted changes.
+
+### List branches
+`git branch -a`
+
+Lists local branches and remote-tracking branches.
+
+### Review recent commits
+`git log --oneline -10`
+
+Displays the ten most recent commits in a compact format.
+
+### Create a feature branch
+`git switch -c feature/check-project-files`
+
+Creates and switches to a new feature branch.
+
+### Inspect project files
+`ls -la`
+
+Lists files, including hidden files, in the current directory.
+
+### List daily challenge files
+`find daily-challenges -maxdepth 2 -type f`
+
+Lists files in the daily challenges folder and its immediate subfolders.
+
+### Search README sections
+`grep -n '^## ' README.md`
+
+Lists the main README headings with their line numbers.
+
+### Rename a README heading
+`sed -i 's/^## What I Learned$/## Lessons Learned/' README.md`
+
+Replaces the old heading with the required Lessons Learned heading.
+
+### Review README changes
+`git diff -- README.md`
+
+Displays changes made to the README before committing.
+
+### Stage and commit the README change
+`git add README.md`
+
+Stages the README for the next commit.
+
+`git commit -m "Docs: rename lessons learned section"`
+
+Records the README heading change in Git history.
+
+### Remove an accidental file
+`rm -- ./-la`
+
+Removes the unintended file named `-la` from the project directory.

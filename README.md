@@ -38,7 +38,7 @@ iyf-s12-week-03-chukwuma-n/
 └── new-project.sh
 ```
 
-## What I Learned
+## Lessons Learned
 
 During Week 03, I learned how to use Git and the command line as part of a practical development workflow.
 
