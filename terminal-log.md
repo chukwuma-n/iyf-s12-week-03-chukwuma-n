@@ -513,3 +513,19 @@ Records the README heading change in Git history.
 `rm -- ./-la`
 
 Removes the unintended file named `-la` from the project directory.
+
+## Merge Conflict Practice — 17 October 2026
+
+### Commands used
+
+- `git switch -c practice/merge-conflict` — created the first practice branch.
+- `git switch main` — returned to main before creating the second branch.
+- `git switch -c practice/merge-conflict-b` — created the second practice branch.
+- `git merge practice/merge-conflict` — merged the first branch into the second and produced a conflict.
+- `git status` — identified the unresolved conflict in README.md.
+- `git add README.md` — marked the conflict resolution as staged.
+- `git commit -m "Docs: resolve README merge conflict"` — completed the merge.
+
+### What I learned
+
+A merge conflict happens when Git cannot automatically combine competing changes. I resolved the conflict by editing README.md, removing the conflict markers, keeping one heading, staging the file, and committing the resolution.
